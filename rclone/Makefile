@@ -15,7 +15,7 @@ PKG_GOGET:=github.com/ncw/rclone
 GOPKG_SOURCE=GO_$(PKG_NAME)-$(PKG_VERSION)-$(PKG_RELEASE).tar.bz2
 
 #!!! uncomment PKG_SOURCE to download fixed version
-PKG_SOURCE=$(GOPKG_SOURCE)
+#PKG_SOURCE=$(GOPKG_SOURCE)
 PKG_COMMIT=d35bd15762f8f0f365fd3e1784e93add3bbdc61c
 
 include $(INCLUDE_DIR)/package.mk

@@ -15,7 +15,7 @@ PKG_GOGET:=github.com/syncthing/syncthing
 GOPKG_SOURCE=GO_$(PKG_NAME)-$(PKG_VERSION)-$(PKG_RELEASE).tar.bz2
 
 #!!! uncomment PKG_SOURCE to download fixed version
-PKG_SOURCE=$(GOPKG_SOURCE)
+#PKG_SOURCE=$(GOPKG_SOURCE)
 PKG_COMMIT=da39dfada33fe152c1d2297ff69dbf0739564516
 
 include $(INCLUDE_DIR)/package.mk
